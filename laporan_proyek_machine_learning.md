@@ -118,7 +118,7 @@ Exploratory Data Analysis (EDA) dilakukan untuk memahami karakteristik dataset N
 
 #### Visualisasi 1: Distribusi Kelas Target (Class Distribution Plot)
 
-![Class Distribution](images/distribusi_kelas.png)
+![Class Distribution](image/distribusi_kelas.png)
 
 **Insight:**  
 Visualisasi ini menunjukkan bahwa distribusi kelas target pada dataset Nursery tidak seimbang. Beberapa kelas memiliki jumlah data yang jauh lebih besar dibandingkan kelas lainnya. Kondisi ini mengindikasikan adanya _class imbalance_ yang perlu diperhatikan pada tahap evaluasi model, khususnya dalam meninjau metrik selain accuracy seperti precision dan recall.
@@ -127,8 +127,8 @@ Visualisasi ini menunjukkan bahwa distribusi kelas target pada dataset Nursery t
 
 #### Visualisasi 2: Distribusi Fitur Kategorikal (Bar Plot)
 
-![Distribution Parent](images/distribusi_fitur_parents.png)
-![Distribution Parent](images/distribusi_fitur_health.png)
+![Distribution Parent](image/distribusi_fitur_parents.png)
+![Distribution Parent](image/distribusi_fitur_health.png)
 
 **Insight:**  
 Bar plot pada fitur kategorikal menunjukkan bahwa beberapa kategori memiliki dominasi yang cukup kuat. Pada fitur _parents_, terlihat perbedaan proporsi antar kategori yang mencerminkan variasi kondisi keluarga. Sementara itu, fitur _health_ memperlihatkan distribusi kategori yang berpotensi berpengaruh signifikan terhadap keputusan kelayakan nursery.
